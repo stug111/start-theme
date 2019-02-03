@@ -1,0 +1,23 @@
+@import 'libs';
+@import 'vars';
+@import 'fonts';
+@import 'components/extend';
+@import 'template/extend';
+
+body {
+	font-family: $default-font, sans-serif;
+	font-size: 14px;
+	min-width: 320px;
+	overflow-x: hidden;
+	position: relative;
+
+	input,
+	textarea {
+		outline: none;
+	}
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}

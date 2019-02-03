@@ -1,0 +1,11 @@
+{
+  "extends": "stylelint-config-wordpress/scss",
+  "plugins": ["stylelint-order"],
+  "rules": {
+    "order/properties-alphabetical-order": true,
+    "max-line-length": 120,
+    "string-quotes": "single",
+    "block-no-empty": null,
+    "at-rule-empty-line-before": null
+  }
+}
