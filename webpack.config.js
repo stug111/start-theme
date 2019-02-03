@@ -66,7 +66,7 @@ module.exports = {
     new BrowserSyncPlugin({
       files: ['**/*.php', '**/*.scss'],
       injectChanges: true,
-      proxy: 'http://ecotransport.local'
+      proxy: 'http://site.local'
     })
   ],
   optimization: {
